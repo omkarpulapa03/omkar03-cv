@@ -15,6 +15,7 @@ jobs:
         with:
           repository: jskherman/cv.typ
           path: template
+          ref: v0.4.0
       - name: Compile Typst files
         uses: waseemr02/typst-action@main
         with:
