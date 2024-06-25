@@ -119,6 +119,17 @@ projects:
       - Implemented `CAN` interface communication with pixhawk and later directly through 433 MHz
       - Embraced the board‑agnostic approach inherent to Zephyr, allowing for easy customization through device tree configuration. This approach ensures that code compiles effortlessly for any Zephyr‑supported hardware board, aligning with the Linux philosophy of portability and adaptability.
 
+  - name: Mother
+    url: https://github.com/waseemR02/kyvernitis/tree/main/mother
+    affiliation: Team Rudra
+    startDate: 2024-03-01
+    endDate: 2024-06-01
+    highlights:
+      - Implemented a hardware-level differential drive system to control the rover's movement.
+      - Integrated IMU and wheel encoders to derive odometry data, enabling accurate tracking of the rover's position and orientation.
+      - Implemented a PID control system for precise movement and positioning of the rover's arm joints.
+      - Established an interface with an Autonomous Navigation Stack via UART, using COBS serialization for reliable data transmission.
+
   - name: ROS packages
     url: https://github.com/waseemR02/alchemy
     affiliation: Team Rudra
