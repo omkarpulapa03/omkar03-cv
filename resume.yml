@@ -12,22 +12,21 @@ personal:
     country: India
   profiles:
     - network: LinkedIn
-      username: Waseem Riaz
-      url: https://linkedin.com/in/waseem-riaz
+      username: Omkar Pulapa
+      url: https://www.linkedin.com/in/omkar-pulapa-502860227
     - network: GitHub
-      username: waseemR02
-      url: https://github.com/waseemR02
+      username: Omkar
+      url: https://github.com/omkarpulapa03/
 
-about: Currently enrolled as 3rd year student. Worked on projects involving robotics, rover, embedded systems, ROS2 and deeplearning.
+about: Currently enrolled as 4th year student.
 
 work:
-  - organization: Siemens Technology and Services Pvt. Ltd.
-    url: https://www.siemens.com/in/en.html
-    location: Bangalore, India
+  - organization: Cyber Secured India
+    location: Virtual
     positions:
-      - position: Intern at PAMC
-        startDate: 2024-01-08
-        endDate: "present"
+      - position: Cyber Security & Digital Forensics Intern
+        startDate: 2023-04-05
+        endDate: 2023-07-10
         highlights:
           # Creating seiri: an automation tool which is a cross-platfrom automation tool for handling csv <-> xlsx conversions and validating them
           - "Working on developing a cross-platform GUI tool with `KIVY` called *`Seiri`*"
@@ -36,31 +35,37 @@ work:
 education:
   - institution: SRM Institute of Science and Technology
     url: https://www.srmist.edu.in/
-    area: Computer Science and Engineering
+    area: Computer Science and Engineering with specialization in Cybersecurity
     studyType: B.Tech
     startDate: 2021-09-01
     endDate: 2025-06-30
     location: Kattankulathur, Tamil Nadu, India 
     honors:
-      - 9.91 CGPA
+      - 9.68 CGPA
     courses:
     highlights:
-      - "*Electives*: Embedded Systems Design, Quantum Computation, Offensive Security, GPU Programming, PCB Designing"
-      - "*Project*: Under the mentorship of Dr.K.Meenakshi, working on _Animal Detection and Alert System_, focused in 
-      optimizing deeplearning models like yolov5 and mobilenet-SSD, and writing paper on tuning hyperparameters with metaheuristic algorithms like `GA`, `IWO` and `PSO`"
+      - "*Electives*: Cryptography, Penetration Testing and Vulnerability Assessment, Information Assurance and Security, Essesntials in Cloud and Devops"
 
 affiliations:
-  - organization: Team Rudra
-    position: Developer Head
-    location: SRM IST, Kattankulathur, Tamil Nadu, India
-    url: https://www.srmrudra.com/
-    startDate: 2022-04-30
+  - organization: SRM ENDURO, SRMIST
+    position: Associate Head
+    location: Kattankulathur, Tamil Nadu, India
+    startDate: 2021-09-15
     endDate: "present"
     highlights:
-      - Team focuses on developing rovers for University Rover Challenge and International Rover Challenge
-      - Primarily worked on developing embedded systems for rover and writing ROS2 stack for rover control and autonomous navigation
-      - Implemented `Kyvernitis` for `CAN` interface and modular control of the rover's sub systems
-      - Won 3rd place in International Rover Challenge 2024 and 5th place in International Rover Design Challenge 2023
+      - Team focuses on conducting Software Training and Personality Development workshops
+      - Transitioned from participant to member and currently serve as Associate Head
+      - Implemented innovative ideas to enhance the quality and competitiveness of Enduro events
+  
+  - organization: Haragopal High School
+    position: School Captain
+    location: Visakhapatnam, Andhra Pradesh, India
+    startDate: 2017-02-10
+    endDate: 2019-04-15
+    highlights:
+      - Team focuses on conducting Software Training and Personality Development workshops
+      - Transitioned from participant to member and currently serve as Associate Head
+      - Implemented innovative ideas to enhance the quality and competitiveness of Enduro events
 
 awards:
   - title: Global Rank 3rd in International Rover Challenge
@@ -89,10 +94,10 @@ awards:
     highlights:
 
 certificates:
-  - name: "Embedded Systems Programming"
-    date: 2023-11-01
-    issuer: Microchip
-    url: https://drive.google.com/drive/folders/11TNocqWHwe8Vzv4GgQVUBax4pRYtd6Y7?usp=sharing
+  - name: "Certified Ethical Hacker"
+    date: 2023-08-26
+    issuer: EC-Council 
+    url: https://drive.google.com/file/d/1jjyk28mmr9Od5WOKsihmeCHVG0PYn7uM/view?usp=sharing
   - name: "Introduction to Cybersecurity and Fundamentals of Network and Cloud Security"
     date: 2023-07-01
     issuer: Palo Alto
@@ -154,36 +159,20 @@ skills:
       - Critical Thinking
       - Problem Solving
       - Time Management
-      - Technical Writing
   - category: Programming
     skills:
       - Python
-      - MATLAB
-      - Nodejs
       - Typst
-      - LaTeX
       - C
-      - Rust
       - C++
       - HTML
       - CSS
   - category: Miscellaneous
     skills:
       - Git
-      - Docker
       - Linux
       - Shell (bash/zsh)
       - vim
-  - category: Libraries
-    skills:
-      - Pytorch
-      - TensorFlow
-      - Scikit-learn
-      - OpenCV
-      - Pandas
-      - Numpy
-      - Matplotlib
-      - Zeromq
   - category: Technologies
     skills:
       - Zephyr RTOS
@@ -191,31 +180,24 @@ skills:
       - ROS2
       - Deeplearning
       - Computer Vision
-  - category: Embedded Systems and Hardware
+  - category: Cybersecurity
     skills:
       - STM blackpill
       - Raspberry Pico
       - ESP32
       - Arduino
-      - Pixhawk
-      - CAN
-      - UART
-      - I2C
-      - SPI
 
 languages:
   - language: English
     fluency: Professional proficiency
-  - language: Hindi
+  - language: Telugu
     fluency: Native Speaker
-  - language: French
+  - language: Hindi
     fluency: Basic proficiency
 
 interests:
   - Video Games
-  - Anime
-  - Reading Fictional and Fantasy novels
-  - Linux
+  - Kali Linux
 
 references:
   # You can comment out the entries below if you don't have any references
