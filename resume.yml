@@ -32,7 +32,7 @@ work:
 education:
   - institution: SRM Institute of Science and Technology
     url: https://www.srmist.edu.in/
-    area: Computer Science and Engineering with specialization in Cybersecurity
+    area: in Computer Science and Engineering with specialization in Cybersecurity
     studyType: B.Tech
     startDate: 2021-09-01
     endDate: 2025-06-30
@@ -41,12 +41,36 @@ education:
       - 9.68 CGPA
     courses:
     highlights:
-      - "*Electives*: Cryptography, Penetration Testing and Vulnerability Assessment, Information Assurance and Security, Essesntials in Cloud and Devops"
-      
+      - "*Electives*: Cryptography, Identity and Access Management, Penetration Testing and Vulnerability Assessment, Information Assurance and Security, OS Security, Essesntials in Cloud and Devops"
+
+  - institution: Sri Chaitanya Junior College
+    url: 
+    area: XI, XII
+    studyType: Class
+    startDate: 2019-06-10
+    endDate: 2021-05-15
+    location: Visakhapatnam, Andhra Pradesh, India 
+    honors:
+      - 95.5%
+    courses: 
+      - Maths, Physics and Chemistry
+    highlights:
+    
+  - institution: Haragopal High School
+    url: 
+    area: X
+    studyType: Class
+    startDate: 2018-06-10
+    endDate: 2019-05-15
+    location: Visakhapatnam, Andhra Pradesh, India 
+    honors:
+      - 10 GPA
+    courses: 
+    highlights: 
 
 
 affiliations:
-  - organization: SRM ENDURO, SRMIST
+  - organization: ENDURO, SRMIST
     url: 
     position: Associate Head
     location: Kattankulathur, Tamil Nadu, India
@@ -102,12 +126,15 @@ publications:
   #   url: https://example.com
 
 projects:
-  - name: Movie Ticket Show Applicaton
-    url: 
+  - name: Fortress - Fortified Operations and Resilient Threat Response Enterprise Security System
+    url: https://github.com/omkarpulapa03/Fortress
     affiliation: 
-    startDate: 2023-01-01
-    endDate: 2023-05-10
-    highlights: 
+    startDate: 2024-01-01
+    endDate: 2024-03-25
+    highlights:
+      - Developed a comprehensive cybersecurity framework to defend against Advanced Persistent Threats (APTs) in the defense sector.
+      - Implemented defense-in-depth strategies including network and endpoint security, multi-factor authentication, and threat intelligence integration.
+      - Designed scripts and tools for intrusion detection and incident response, ensuring robust protection against sophisticated cyber threats.
 
 
 skills:
@@ -120,9 +147,9 @@ skills:
   - category: Programming
     skills:
       - Python
-      - Typst
       - C
       - C++
+      - Typst
       - HTML
       - CSS
   - category: Miscellaneous
@@ -144,7 +171,7 @@ languages:
   - language: Telugu
     fluency: Native Speaker
   - language: Hindi
-    fluency: Basic proficiency
+    fluency: Professional proficiency
 
 interests:
   - Kali Linux
