@@ -13,25 +13,22 @@ personal:
   profiles:
     - network: LinkedIn
       username: Omkar Pulapa
-      url: https://www.linkedin.com/in/omkar-pulapa-502860227
+      url: https://linkedin.com/in/omkar-pulapa
     - network: GitHub
       username: Omkar
-      url: https://github.com/omkarpulapa03/
+      url: https://github.com/omkarpulapa03
 
-about: Currently enrolled as 4th year student.
+about: Currently enrolled as 4th year student. Motivated engineering student with a strong foundation in cybersecurity and Ethical Hacking, passionate about innovative problem-solving and dedicated to advancing technical expertise through hands-on experience.
 
 work:
   - organization: Cyber Secured India
+    url: https://drive.google.com/file/d/1CudXZjzZJpmfx2GmBxDcPPFa-0DHtvie/view?usp=sharing
     location: Virtual
     positions:
       - position: Cyber Security & Digital Forensics Intern
         startDate: 2023-04-05
         endDate: 2023-07-10
-        highlights:
-          # Creating seiri: an automation tool which is a cross-platfrom automation tool for handling csv <-> xlsx conversions and validating them
-          - "Working on developing a cross-platform GUI tool with `KIVY` called *`Seiri`*"
-          - Handles `csv`$arrow.l.r.double$`xlsx` conversions
-          - Validates files against a set of rules and constraints
+        highlights: ""
 education:
   - institution: SRM Institute of Science and Technology
     url: https://www.srmist.edu.in/
@@ -45,9 +42,12 @@ education:
     courses:
     highlights:
       - "*Electives*: Cryptography, Penetration Testing and Vulnerability Assessment, Information Assurance and Security, Essesntials in Cloud and Devops"
+      
+
 
 affiliations:
   - organization: SRM ENDURO, SRMIST
+    url: 
     position: Associate Head
     location: Kattankulathur, Tamil Nadu, India
     startDate: 2021-09-15
@@ -58,38 +58,26 @@ affiliations:
       - Implemented innovative ideas to enhance the quality and competitiveness of Enduro events
   
   - organization: Haragopal High School
+    url: 
     position: School Captain
     location: Visakhapatnam, Andhra Pradesh, India
     startDate: 2017-02-10
     endDate: 2019-04-15
     highlights:
-      - Team focuses on conducting Software Training and Personality Development workshops
-      - Transitioned from participant to member and currently serve as Associate Head
-      - Implemented innovative ideas to enhance the quality and competitiveness of Enduro events
+      - Led the school community with integrity, vision, and exemplary leadership skills.
+      - Acted as a liaison between students and school administration, addressing concerns and implementing positive changes.
 
 awards:
-  - title: Global Rank 3rd in International Rover Challenge
-    date: 2024-01-29
-    issuer: Space Robotics Society
-    url: https://drive.google.com/file/d/1_ebH2MqSpNfWNbZqpe0Ak5FTrL2B_8mr/view?usp=sharing
-    location: Coimbatore, Tamil Nadu, India
-    highlights:
-  - title: Global Rank 5th in International Rover Design Challenge
-    date: 2023-10-20
-    issuer: Space Robotics Society
-    url: https://drive.google.com/file/d/12R4VZzB9ERelN0WwLCmrgPU3LodgBRYN/view?usp=sharing
+  - title: Performance based Scholarship of Rs.50,750
+    date: 2023-09-15
+    issuer: SRMIST
+    url:
     location: Chennai, Tamil Nadu, India
     highlights:
-  - title: Global Rank 7th in International Rover Challenge
-    date: 2023-01-30
-    issuer: Space Robotics Society
+  - title: Performance based Scholarship of Rs.40,000
+    date: 2022-12-15
+    issuer: SRMIST
     url: 
-    location: Bangalore, India
-    highlights:
-  - title: Global Rank 8th in International Rover Design Challenge
-    date: 2022-10-29
-    issuer: Space Robotics Society
-    url: https://drive.google.com/file/d/1eOwaZb4CX9R_Low_-fd748czsYjzDUtT/view?usp=sharing
     location: Chennai, Tamil Nadu, India
     highlights:
 
@@ -101,11 +89,11 @@ certificates:
   - name: "Introduction to Cybersecurity and Fundamentals of Network and Cloud Security"
     date: 2023-07-01
     issuer: Palo Alto
-    url: https://drive.google.com/drive/folders/1f6fjV3zFfvQFF_Xvy-OlCmUJoY9FugGG?usp=sharing
-  - name: "Matlab Optimization onRamp"
-    date: 2023-10-27
-    issuer: MathWorks
-    url: https://drive.google.com/drive/folders/1YYgTaczPAYAP2t4Me5Af5KaJXQONdPty?usp=sharing
+    url: https://drive.google.com/drive/folders/1pQiTz2zF9ORNf7aDb4t2JmwB3h-inq0r?usp=sharing
+  - name: "Ethical Hacking Essentials (EHE)"
+    date: 2023-02-28
+    issuer: CodeRed (EC-Council)
+    url: https://drive.google.com/file/d/1cjRYsKkdi-pPtZie19f3LMqaH6PHmojW/view?usp=sharing
 
 publications:
   # - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
@@ -114,43 +102,13 @@ publications:
   #   url: https://example.com
 
 projects:
-  - name: Kyvernitis
-    url: https://github.com/waseemR02/kyvernitis
-    affiliation: Team Rudra
-    startDate: 2023-08-01
-    endDate: 2024-01-15
-    highlights:
-      - Enhanced the functionality of a rover by programming Blackpill microcontrollers to act as daughter boards, effectively managing subsystems like arm, bio-arm, astronaut’s box, etc to reduce overall system failure.
-      - Implemented `CAN` interface communication with pixhawk and later directly through 433 MHz
-      - Embraced the board‑agnostic approach inherent to Zephyr, allowing for easy customization through device tree configuration. This approach ensures that code compiles effortlessly for any Zephyr‑supported hardware board, aligning with the Linux philosophy of portability and adaptability.
+  - name: Movie Ticket Show Applicaton
+    url: 
+    affiliation: 
+    startDate: 2023-01-01
+    endDate: 2023-05-10
+    highlights: 
 
-  - name: Mother
-    url: https://github.com/waseemR02/kyvernitis/tree/main/mother
-    affiliation: Team Rudra
-    startDate: 2024-03-01
-    endDate: 2024-06-01
-    highlights:
-      - Implemented a hardware-level differential drive system to control the rover's movement.
-      - Integrated IMU and wheel encoders to derive odometry data, enabling accurate tracking of the rover's position and orientation.
-      - Implemented a PID control system for precise movement and positioning of the rover's arm joints.
-      - Established an interface with an Autonomous Navigation Stack via UART, using COBS serialization for reliable data transmission.
-
-  - name: ROS packages
-    url: https://github.com/waseemR02/alchemy
-    affiliation: Team Rudra
-    startDate: 2023-11-01
-    endDate: 2023-12-31
-    highlights:
-      - "*Alchemy* : ROS2 package for sensor data visualization through Foxglove using Atmega 328p"
-      - "*Unconfined* : ROS2 package for realtime camera stream using ZMQ, multithreaded for photo collection and stitching"
-  - name: CombinedSys
-    url: https://github.com/SHAY2407/combinedsys
-    affiliation: Team Rudra
-    startDate: 2022-04-01
-    endDate: 2022-04-30
-    highlights:
-      - Implemented a GUI Based Control for the Rover
-      - Motor Control, Sensor Data Visualization, Camera Stream integrated
 
 skills:
   - category: Soft Skills
@@ -173,19 +131,12 @@ skills:
       - Linux
       - Shell (bash/zsh)
       - vim
-  - category: Technologies
-    skills:
-      - Zephyr RTOS
-      - Embedded Systems
-      - ROS2
-      - Deeplearning
-      - Computer Vision
   - category: Cybersecurity
     skills:
-      - STM blackpill
-      - Raspberry Pico
-      - ESP32
-      - Arduino
+      - Penetration Testing 
+      - Malware Analysis
+      - Network Security
+      - Security Tools
 
 languages:
   - language: English
@@ -196,8 +147,9 @@ languages:
     fluency: Basic proficiency
 
 interests:
-  - Video Games
   - Kali Linux
+  - Video Games
+  
 
 references:
   # You can comment out the entries below if you don't have any references
