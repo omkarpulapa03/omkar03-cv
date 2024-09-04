@@ -138,12 +138,14 @@ projects:
 
 
 skills:
-  - category: Soft Skills
+  - category: Cybersecurity
     skills:
-      - Communication
-      - Critical Thinking
-      - Problem Solving
-      - Time Management
+      - Penetration Testing
+      - Ethical Hacking
+      - Malware Analysis
+      - Network Security
+      - Security Tools
+      
   - category: Programming
     skills:
       - Python
@@ -158,20 +160,21 @@ skills:
       - Linux
       - Shell (bash/zsh)
       - vim
-  - category: Cybersecurity
+  - category: Soft Skills
     skills:
-      - Penetration Testing 
-      - Malware Analysis
-      - Network Security
-      - Security Tools
+      - Communication
+      - Critical Thinking
+      - Problem Solving
+      - Time Management
+      - Team Player
 
 languages:
   - language: English
-    fluency: Professional proficiency
+    fluency: 
   - language: Telugu
-    fluency: Native Speaker
+    fluency: 
   - language: Hindi
-    fluency: Professional proficiency
+    fluency: 
 
 interests:
   - Kali Linux
