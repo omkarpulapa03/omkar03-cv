@@ -1,4 +1,4 @@
-# waseemr02-cv
+# omkar03-cv
 
 This repository uses [Typst](https://github.com/typst/typst) to generate a resume using a template provided by [jskherman](https://github.com/jskherman/cv.typ). The process is automated using GitHub Actions, which runs a workflow to generate a PDF version of the resume and upload it as an artifact. The workflow also deploys a github page by using `pdf2svg` to generate svgs.
 
