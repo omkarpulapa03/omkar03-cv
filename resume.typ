@@ -87,7 +87,7 @@
         #if (info.languages != none) [
             #let langs = ()
             #for lang in info.languages {
-                langs.push([#lang.language #lang.fluency])
+                langs.push([#lang.language (#lang.fluency)])
             }
             - *Languages*: #langs.join(", ")
         ]
