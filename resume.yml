@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/cv.typ/main/cv.typ.schema.json
 
 personal:
-  name: Omkar Pulapa
+  name: PULAPA OMKAR
   email: pulapaomkar@gmail.com
   phone: (+91) 79811 92465
   url: 
@@ -23,7 +23,7 @@ about: Currently enrolled as 4th year student. Motivated engineering student wit
 work:
   - organization: Cyber Secured India
     url: https://drive.google.com/file/d/1CudXZjzZJpmfx2GmBxDcPPFa-0DHtvie/view?usp=sharing
-    location: Virtual
+    location: Remote
     positions:
       - position: Cyber Security & Digital Forensics Intern
         startDate: 2023-04-05
@@ -32,7 +32,7 @@ work:
 education:
   - institution: SRM Institute of Science and Technology
     url: https://www.srmist.edu.in/
-    area: in Computer Science and Engineering with specialization in Cybersecurity
+    area: Computer Science and Engineering with specialization in Cybersecurity
     studyType: B.Tech
     startDate: 2021-09-01
     endDate: 2025-06-30
@@ -105,19 +105,50 @@ awards:
     location: Chennai, Tamil Nadu, India
     highlights:
 
+workshops:
+  - title: Performance based Scholarship of Rs.50,750
+    date: 2023-09-15
+    issuer: SRMIST
+    url:
+    location: Chennai, Tamil Nadu, India
+    highlights:
+  - title: Performance based Scholarship of Rs.40,000
+    date: 2022-12-15
+    issuer: SRMIST
+    url: 
+    location: Chennai, Tamil Nadu, India
+    highlights:
+
 certificates:
+  - name: " Zscaler Cybersecurity Fundamentals Associate Course"
+    date: 2024-02-06
+    issuer: Zscaler Academy
+    url: https://verify.skilljar.com/c/2xoidgnbwsgc
+    
   - name: "Certified Ethical Hacker"
     date: 2023-08-26
     issuer: EC-Council 
     url: https://drive.google.com/file/d/1jjyk28mmr9Od5WOKsihmeCHVG0PYn7uM/view?usp=sharing
+    
   - name: "Introduction to Cybersecurity and Fundamentals of Network and Cloud Security"
     date: 2023-07-01
     issuer: Palo Alto
     url: https://drive.google.com/drive/folders/1pQiTz2zF9ORNf7aDb4t2JmwB3h-inq0r?usp=sharing
+    
   - name: "Ethical Hacking Essentials (EHE)"
     date: 2023-02-28
     issuer: CodeRed (EC-Council)
     url: https://drive.google.com/file/d/1cjRYsKkdi-pPtZie19f3LMqaH6PHmojW/view?usp=sharing
+    
+  - name: "Skill Development Program on ETHICAL HACKING"
+    date: 2022-09-12
+    issuer: SRMIST
+    url: https://drive.google.com/file/d/15C2U_X9Ippp-eo6hw6o4uDZrr1rXcoY5/view?usp=sharing
+
+  - name: "Indian Army Cyber Security Hackathon"
+    date: 2021-02-10
+    issuer: Sainya Ranakshetram
+    url: https://drive.google.com/file/d/14n7JtHFlq7XeQWjQ3MNcxg--eKPqtUze/view?usp=sharing
 
 publications:
   # - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
@@ -140,11 +171,19 @@ projects:
 skills:
   - category: Cybersecurity
     skills:
-      - Penetration Testing
-      - Ethical Hacking
+      - Penetration Testing 
+      - Network Monitoring
       - Malware Analysis
       - Network Security
-      - Security Tools
+
+  - category: Security Tools
+    skills:
+      - Metasploit
+      - Wireshark
+      - Burpsuite
+      - Firewalls
+      - IDS/IPS
+      - Nessus
       
   - category: Programming
     skills:
@@ -156,9 +195,8 @@ skills:
       - CSS
   - category: Miscellaneous
     skills:
-      - Git
       - Linux
-      - Shell (bash/zsh)
+      - Git
       - vim
   - category: Soft Skills
     skills:
@@ -167,14 +205,14 @@ skills:
       - Problem Solving
       - Time Management
       - Team Player
-
+      
 languages:
   - language: English
-    fluency: Professional proficiency
+    fluency:
   - language: Telugu
-    fluency: Native Speaker 
+    fluency: 
   - language: Hindi
-    fluency: Professional proficiency
+    fluency: 
 
 interests:
   - Kali Linux
