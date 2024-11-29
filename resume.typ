@@ -50,7 +50,7 @@
 
 #let cvcertificates(info, isbreakable: true) = {
     if info.certificates != none {block[
-        == Certifications
+        == Certifications & Workshops
 
         #for cert in info.certificates {
             // parse ISO date strings into datetime objects
@@ -83,11 +83,11 @@
 
 #let cvlangsinterests(info, isbreakable: true) = {
     if (info.languages != none) or (info.interests != none) {block(breakable: isbreakable)[
-        == Languages, Interests
+        == Languages & Interests
         #if (info.languages != none) [
             #let langs = ()
             #for lang in info.languages {
-                langs.push([#lang.language (#lang.fluency)])
+                langs.push([#lang.language#lang.fluency])
             }
             - *Languages*: #langs.join(", ")
         ]
@@ -97,34 +97,6 @@
         ]
     ]}
 }
-
-#let cvawards(info, isbreakable: true) = {
-    if info.awards != none {block[
-        == Scholarships & Awards
-        #for award in info.awards {
-            // parse ISO date strings into datetime objects
-            let date = utils.strpdate(award.date)
-            // create a block layout for each award entry
-            block(width: 100%, breakable: isbreakable)[
-                // line 1: award title and location
-                #if award.url != none [
-                    *#link(award.url)[#award.title]* #h(1fr) *#award.location* \
-                ] else [
-                    *#award.title* #h(1fr) *#award.location* \
-                ]
-                // line 2: issuer and date
-                Issued by #text(style: "italic")[#award.issuer]  #h(1fr) #date \
-                // summary or description
-                #if award.highlights != none {
-                    for hi in award.highlights [
-                        - #eval(hi, mode: "markup")
-                    ]
-                } else {}
-            ]
-        }
-    ]}
-}
-
 // ========================================================================== //
 
 #show: doc => cvinit(doc)
